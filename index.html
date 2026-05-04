@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LRE Electrical — Trusted Miners Rest Electricians Servicing Ballarat</title>
+<meta name="description" content="LRE Electrical — trusted Miners Rest electricians servicing Ballarat. New builds, renos, repairs & 24/7 emergency callouts. Call Lachy on 0407 809 647.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{
+  --yellow:#FFD60A;
+  --yellow-soft:#FFF4B8;
+  --yellow-tint:#FFFBE6;
+  --charcoal:#1A1D24;
+  --charcoal-soft:#2C313D;
+  --grey:#5A5F6B;
+  --light:#F5F6F8;
+  --white:#ffffff;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Open Sans',sans-serif;color:var(--charcoal);line-height:1.65;overflow-x:hidden;background:#fff}
+h1,h2,h3,h4{font-family:'Raleway',sans-serif;font-weight:800;line-height:1.15;color:var(--charcoal)}
+h1{font-size:clamp(2.2rem,5.5vw,4rem)}
+h2{font-size:clamp(1.8rem,3.5vw,2.7rem);margin-bottom:.5rem}
+h3{font-size:1.25rem}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.section{padding:90px 0}
+.eyebrow{display:inline-block;font-family:'Raleway',sans-serif;font-weight:700;font-size:.8rem;letter-spacing:3px;text-transform:uppercase;color:var(--charcoal);background:var(--yellow);padding:6px 14px;border-radius:3px;margin-bottom:18px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 28px;font-family:'Raleway',sans-serif;font-weight:700;font-size:.95rem;letter-spacing:.5px;text-transform:uppercase;border-radius:4px;transition:all .25s ease;min-height:48px;cursor:pointer;border:2px solid transparent}
+.btn-primary{background:var(--yellow);color:var(--charcoal)}
+.btn-primary:hover{background:var(--charcoal);color:var(--yellow);transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.btn-outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.btn-outline:hover{background:#fff;color:var(--charcoal);border-color:#fff}
+.btn-dark{background:var(--charcoal);color:var(--yellow)}
+.btn-dark:hover{background:var(--yellow);color:var(--charcoal)}
+
+/* NAV */
+.nav{position:sticky;top:0;background:rgba(26,29,36,.97);backdrop-filter:blur(10px);z-index:1000;border-bottom:2px solid var(--yellow)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;max-width:1200px;margin:0 auto}
+.logo{font-family:'Raleway',sans-serif;font-weight:900;font-size:1.4rem;color:#fff;display:flex;align-items:center;gap:10px}
+.logo-bolt{display:inline-flex;width:36px;height:36px;background:var(--yellow);align-items:center;justify-content:center;border-radius:6px;color:var(--charcoal);font-size:1.1rem;transform:rotate(-5deg)}
+.logo span{color:var(--yellow)}
+.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links a{color:#fff;font-weight:500;font-size:.95rem;transition:color .2s}
+.nav-links a:hover{color:var(--yellow)}
+.nav-cta{background:var(--yellow);color:var(--charcoal);padding:10px 18px;border-radius:4px;font-weight:700;font-size:.85rem}
+.nav-cta:hover{color:var(--charcoal);background:#fff}
+.hamburger{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer;padding:8px}
+.mobile-menu{display:none;background:var(--charcoal);padding:0 24px;overflow:hidden;max-height:0;transition:max-height .35s ease}
+.mobile-menu.open{max-height:500px;padding:20px 24px}
+.mobile-menu a{display:block;color:#fff;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1);font-weight:500}
+.mobile-menu a:last-child{border-bottom:none}
+
+/* HERO */
+.hero{position:relative;background:var(--charcoal);color:#fff;padding:110px 0 130px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:
+  linear-gradient(135deg,rgba(255,214,10,.08) 0%,transparent 50%),
+  repeating-linear-gradient(45deg,transparent 0,transparent 40px,rgba(255,214,10,.04) 40px,rgba(255,214,10,.04) 41px);
+  pointer-events:none}
+.hero::after{content:"";position:absolute;top:-100px;right:-100px;width:500px;height:500px;background:radial-gradient(circle,rgba(255,214,10,.15) 0%,transparent 60%);border-radius:50%;pointer-events:none}
+.hero-inner{position:relative;z-index:2;display:grid;grid-template-columns:1.5fr 1fr;gap:60px;align-items:center}
+.hero h1{color:#fff;margin-bottom:24px}
+.hero h1 .accent{color:var(--yellow);position:relative}
+.hero h1 .accent::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:4px;background:var(--yellow);opacity:.4}
+.hero p{font-size:1.1rem;color:#d8dae0;max-width:600px;margin-bottom:34px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero-visual{position:relative;height:380px;display:flex;align-items:center;justify-content:center}
+.hero-visual svg{width:100%;height:100%;max-width:400px}
+.hero-badge{position:absolute;background:var(--yellow);color:var(--charcoal);padding:14px 18px;border-radius:8px;font-family:'Raleway',sans-serif;font-weight:800;display:flex;align-items:center;gap:10px;box-shadow:0 15px 40px rgba(0,0,0,.4)}
+.hero-badge.b1{top:20px;left:0;font-size:.9rem}
+.hero-badge.b2{bottom:20px;right:10px;background:#fff}
+.hero-badge i{font-size:1.3rem}
+
+/* MARQUEE STRIP */
+.strip{background:var(--yellow);padding:18px 0;border-top:3px solid var(--charcoal);border-bottom:3px solid var(--charcoal)}
+.strip-inner{display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap;gap:20px;font-family:'Raleway',sans-serif;font-weight:700;color:var(--charcoal);text-transform:uppercase;letter-spacing:1.5px;font-size:.85rem}
+.strip-inner span{display:flex;align-items:center;gap:8px}
+
+/* ABOUT */
+.about{background:#fff}
+.about-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
+.about-text p{margin-top:18px;color:var(--grey);font-size:1.02rem}
+.stats{display:grid;gap:18px}
+.stat-card{background:linear-gradient(135deg,var(--yellow-tint) 0%,#fff 100%);border:2px solid var(--yellow);border-radius:14px;padding:28px;display:flex;align-items:center;gap:20px;transition:transform .3s}
+.stat-card:hover{transform:translateX(8px)}
+.stat-num{font-family:'Raleway',sans-serif;font-weight:900;font-size:2.6rem;color:var(--charcoal);min-width:90px}
+.stat-label{font-weight:600;color:var(--charcoal-soft);font-size:1rem}
+
+/* SERVICES */
+.services{background:var(--light);position:relative}
+.services::before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:repeating-linear-gradient(90deg,var(--yellow) 0,var(--yellow) 30px,var(--charcoal) 30px,var(--charcoal) 60px)}
+.section-head{text-align:center;max-width:700px;margin:0 auto 60px}
+.section-head p{color:var(--grey);margin-top:14px}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.service-card{background:#fff;padding:36px 30px;border-radius:8px;position:relative;transition:all .3s;border-bottom:4px solid transparent}
+.service-card:hover{transform:translateY(-8px);box-shadow:0 25px 50px rgba(0,0,0,.1);border-bottom-color:var(--yellow)}
+.service-icon{width:60px;height:60px;background:var(--charcoal);color:var(--yellow);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:20px;transition:all .3s}
+.service-card:hover .service-icon{background:var(--yellow);color:var(--charcoal);transform:rotate(-8deg)}
+.service-card h3{margin-bottom:12px}
+.service-card p{color:var(--grey);font-size:.95rem}
+.service-num{position:absolute;top:18px;right:22px;font-family:'Raleway',sans-serif;font-weight:900;font-size:2rem;color:var(--yellow-soft)}
+
+/* WHY US */
+.why{background:#fff}
+.why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:40px}
+.why-item{display:flex;gap:22px;padding:24px;border-left:4px solid var(--yellow);background:linear-gradient(90deg,var(--yellow-tint),transparent);border-radius:0 10px 10px 0;transition:transform .25s}
+.why-item:hover{transform:translateX(6px)}
+.why-icon{flex-shrink:0;width:56px;height:56px;background:var(--charcoal);color:var(--yellow);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+.why-item h3{margin-bottom:8px}
+.why-item p{color:var(--grey);font-size:.95rem}
+
+/* PROCESS */
+.process{background:var(--charcoal);color:#fff;position:relative;overflow:hidden}
+.process::before{content:"";position:absolute;top:0;right:0;width:300px;height:300px;background:radial-gradient(circle,rgba(255,214,10,.1),transparent 70%);border-radius:50%}
+.process h2{color:#fff}
+.process .section-head p{color:#bbbec5}
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;position:relative}
+.process-steps::before{content:"";position:absolute;top:32px;left:7%;right:7%;height:2px;background:repeating-linear-gradient(90deg,var(--yellow) 0,var(--yellow) 8px,transparent 8px,transparent 16px);z-index:1}
+.step{position:relative;z-index:2;text-align:center}
+.step-num{width:64px;height:64px;background:var(--yellow);color:var(--charcoal);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Raleway',sans-serif;font-weight:900;font-size:1.5rem;margin:0 auto 20px;border:4px solid var(--charcoal);box-shadow:0 0 0 3px var(--yellow)}
+.step h3{color:#fff;margin-bottom:10px}
+.step p{color:#bbbec5;font-size:.92rem}
+
+/* TESTIMONIALS */
+.testimonials{background:var(--yellow-tint);position:relative}
+.testimonials::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 20% 30%,rgba(255,214,10,.4) 0,transparent 8%),radial-gradient(circle at 80% 70%,rgba(255,214,10,.3) 0,transparent 10%);pointer-events:none}
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;position:relative;z-index:2}
+.test-card{background:#fff;padding:32px;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.06);position:relative;transition:transform .3s}
+.test-card:hover{transform:translateY(-6px)}
+.test-card::before{content:"\201C";position:absolute;top:-10px;left:24px;font-family:Georgia,serif;font-size:5rem;color:var(--yellow);line-height:1}
+.stars{color:var(--yellow);margin-bottom:14px;font-size:1rem;letter-spacing:2px;-webkit-text-stroke:1px var(--charcoal)}
+.test-card p{color:var(--charcoal-soft);font-size:.95rem;margin-bottom:18px;font-style:italic}
+.test-author{font-family:'Raleway',sans-serif;font-weight:700;color:var(--charcoal);padding-top:14px;border-top:1px solid #eee}
+
+/* FAQ */
+.faq{background:#fff}
+.faq-list{max-width:800px;margin:0 auto}
+.faq-item{border:2px solid #eee;border-radius:8px;margin-bottom:14px;overflow:hidden;transition:border-color .25s}
+.faq-item.open{border-color:var(--yellow)}
+.faq-q{width:100%;background:#fff;border:none;padding:22px 24px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-family:'Raleway',sans-serif;font-weight:700;font-size:1.05rem;color:var(--charcoal);text-align:left;gap:18px;min-height:48px}
+.faq-q i{transition:transform .3s;color:var(--yellow);background:var(--charcoal);width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem;flex-shrink:0}
+.faq-item.open .faq-q i{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease;color:var(--grey)}
+.faq-a div{padding:0 24px 22px}
+.faq-item.open .faq-a{max-height:300px}
+
+/* HOURS / LOCATION */
+.hours-section{background:var(--light)}
+.hours-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.hours-card{background:#fff;padding:36px;border-radius:10px;border-top:5px solid var(--yellow)}
+.hours-card h3{margin-bottom:20px;display:flex;align-items:center;gap:12px}
+.hours-card h3 i{color:var(--yellow);background:var(--charcoal);width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.95rem}
+.hours-list{list-style:none}
+.hours-list li{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px dashed #e5e5e5;font-size:.95rem}
+.hours-list li:last-child{border-bottom:none}
+.hours-list .day{font-weight:600}
+.hours-list .time{color:var(--grey);font-weight:600}
+.open-badge{display:inline-flex;align-items:center;gap:8px;background:var(--yellow);padding:6px 12px;border-radius:20px;font-size:.8rem;font-weight:700;color:var(--charcoal);margin-top:18px;text-transform:uppercase;letter-spacing:1px}
+.open-badge::before{content:"";width:8px;height:8px;background:#1bcc59;border-radius:50%}
+.map-wrap{position:relative;border-radius:10px;overflow:hidden;aspect-ratio:1/1;border:5px solid var(--yellow);background:var(--charcoal)}
+.map-wrap iframe{width:100%;height:100%;border:0}
+
+/* CONTACT */
+.contact{background:var(--charcoal);color:#fff;position:relative;overflow:hidden}
+.contact::before{content:"";position:absolute;top:-50px;left:-50px;width:300px;height:300px;background:radial-gradient(circle,rgba(255,214,10,.12),transparent 70%);border-radius:50%}
+.contact h2{color:#fff;text-align:center}
+.contact .section-head p{color:#bbbec5}
+.contact-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:50px;align-items:start;position:relative;z-index:2}
+.call-block{background:linear-gradient(135deg,var(--yellow),#FFC107);color:var(--charcoal);padding:40px;border-radius:14px}
+.call-block .small{font-family:'Raleway',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.85rem;margin-bottom:10px}
+.call-block .number{font-family:'Raleway',sans-serif;font-weight:900;font-size:2.2rem;margin-bottom:18px;display:block;color:var(--charcoal)}
+.call-block .number:hover{text-decoration:underline}
+.call-block p{font-size:.95rem;margin-bottom:20px}
+.contact-info{margin-top:24px}
+.contact-info-item{display:flex;gap:14px;align-items:flex-start;margin-bottom:18px;color:#d8dae0}
+.contact-info-item i{color:var(--yellow);width:32px;height:32px;background:rgba(255,214,10,.12);border-radius:6px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+.contact-form{background:#fff;color:var(--charcoal);padding:36px;border-radius:14px}
+.contact-form h3{margin-bottom:20px}
+.field{margin-bottom:16px}
+.field label{display:block;font-weight:600;font-size:.88rem;margin-bottom:6px;color:var(--charcoal-soft)}
+.field input,.field textarea{width:100%;padding:13px 14px;border:2px solid #e8e8e8;border-radius:6px;font-family:inherit;font-size:.95rem;transition:border-color .2s;min-height:48px}
+.field textarea{min-height:120px;resize:vertical}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--yellow)}
+.contact-form button{width:100%;justify-content:center}
+
+/* FOOTER */
+footer{background:#0E1014;color:#bbbec5;padding:60px 0 24px}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.foot-grid h4{color:#fff;margin-bottom:18px;font-size:1rem;text-transform:uppercase;letter-spacing:1.5px}
+.foot-grid p,.foot-grid a,.foot-grid li{font-size:.92rem;color:#9da1aa;line-height:1.9}
+.foot-grid ul{list-style:none}
+.foot-grid a:hover{color:var(--yellow)}
+.foot-logo{color:#fff;font-family:'Raleway',sans-serif;font-weight:900;font-size:1.4rem;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.foot-logo span{color:var(--yellow)}
+.foot-bottom{border-top:1px solid #22262e;padding-top:24px;text-align:center;font-size:.85rem;color:#7a7e87}
+.foot-bottom span{color:var(--yellow)}
+
+@media (max-width:960px){
+  .hero-inner,.about-grid,.contact-grid,.hours-grid{grid-template-columns:1fr;gap:40px}
+  .service-grid{grid-template-columns:repeat(2,1fr)}
+  .why-grid{grid-template-columns:1fr}
+  .process-steps{grid-template-columns:repeat(2,1fr);gap:40px}
+  .process-steps::before{display:none}
+  .test-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:30px}
+  .hero-visual{height:300px;margin-top:20px}
+}
+@media (max-width:768px){
+  .nav-links,.nav-cta{display:none}
+  .hamburger{display:block}
+  .mobile-menu{display:block}
+  .section{padding:70px 0}
+  .hero{padding:80px 0 90px}
+  .service-grid{grid-template-columns:1fr}
+  .stat-card{padding:22px}
+  .stat-num{font-size:2rem;min-width:70px}
+  .foot-grid{grid-template-columns:1fr;gap:30px;text-align:left}
+  .call-block .number{font-size:1.7rem}
+}
+@media (max-width:480px){
+  .container{padding:0 18px}
+  .hero{padding:60px 0 70px}
+  .hero-ctas{flex-direction:column;align-items:stretch}
+  .btn{justify-content:center}
+  .process-steps{grid-template-columns:1fr}
+  .hours-card,.contact-form,.call-block{padding:26px}
+  .strip-inner{font-size:.75rem}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo"><span class="logo-bolt"><i class="fa-solid fa-bolt"></i></span>LRE <span>Electrical</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="tel:0407809647" class="nav-cta"><i class="fa-solid fa-phone"></i> 0407 809 647</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
+    <a href="#process">Process</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="tel:0407809647"><i class="fa-solid fa-phone"></i> Call 0407 809 647</a>
+  </div>
+</nav>
+
+<section class="hero" id="top">
+  <div class="container hero-inner">
+    <div>
+      <span class="eyebrow"><i class="fa-solid fa-location-dot"></i> Miners Rest · Ballarat</span>
+      <h1>Electrical Work Done <span class="accent">Properly</span>, the First Time Around</h1>
+      <p>Lachy and the LRE Electrical team look after homes, new builds and businesses across Miners Rest, Ballarat and the surrounding region — with clear communication, tidy workmanship and 24/7 availability when you need it most.</p>
+      <div class="hero-ctas">
+        <a href="tel:0407809647" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Lachy on 0407 809 647</a>
+        <a href="#contact" class="btn btn-outline">Request a Free Quote</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="yel" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#FFD60A"/>
+            <stop offset="100%" stop-color="#FFB300"/>
+          </linearGradient>
+        </defs>
+        <circle cx="200" cy="200" r="160" fill="none" stroke="rgba(255,214,10,.25)" stroke-width="2" stroke-dasharray="4 6"/>
+        <circle cx="200" cy="200" r="120" fill="none" stroke="rgba(255,214,10,.4)" stroke-width="1.5"/>
+        <polygon points="220,80 170,210 210,210 180,320 260,180 215,180 250,80" fill="url(#yel)" stroke="#1A1D24" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="80" cy="100" r="6" fill="#FFD60A"/>
+        <circle cx="320" cy="120" r="4" fill="#FFD60A"/>
+        <circle cx="100" cy="320" r="5" fill="#FFD60A"/>
+        <circle cx="330" cy="300" r="7" fill="#FFD60A"/>
+      </svg>
+      <div class="hero-badge b1"><i class="fa-solid fa-clock"></i> 24/7 Callouts</div>
+      <div class="hero-badge b2"><i class="fa-solid fa-shield-halved"></i> Fully Licensed</div>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="container strip-inner">
+    <span><i class="fa-solid fa-bolt"></i> New Builds</span>
+    <span><i class="fa-solid fa-house"></i> Renovations</span>
+    <span><i class="fa-solid fa-triangle-exclamation"></i> Emergencies</span>
+    <span><i class="fa-solid fa-store"></i> Commercial Fit-Outs</span>
+    <span><i class="fa-solid fa-lightbulb"></i> LED Lighting</span>
+  </div>
+</div>
+
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-text">
+      <span class="eyebrow">About LRE</span>
+      <h2>Local Sparkies Who Actually Turn Up</h2>
+      <p>LRE Electrical is a Miners Rest-based team led by Lachy, looking after clients right across Ballarat and the Central Highlands. Our customers tell us the same things over and over — we rock up on time, leave the place neat and tidy, and pick up on the small details others miss.</p>
+      <p>Whether it's a brand new home in a Ballarat estate, a fit-out for a local gym, or a fault that needs sorting at 11pm, we handle it like it's our own place. No mess, no fuss, no surprises on the invoice.</p>
+    </div>
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-num">5★</div>
+        <div class="stat-label">Customer Rating from Ballarat locals</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">24/7</div>
+        <div class="stat-label">Emergency Callouts — day, night & weekends</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Licensed & Insured in Victoria</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">What We Do</span>
+      <h2>Electrical Services Across Ballarat</h2>
+      <p>From a flickering downlight to a full new home fit-out, we cover the lot — wired to Australian Standards and finished tidy.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+        <h3>New Build & Renovation Wiring</h3>
+        <p>Full electrical fit-outs for new homes and renovations across Ballarat, wired to Australian Standards from rough-in to final fix. We work alongside your builder and flag anything in the plans that's been overlooked before it becomes a costly fix later.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <div class="service-icon"><i class="fa-solid fa-plug"></i></div>
+        <h3>Residential Electrical Repairs</h3>
+        <p>From dodgy power points and flickering lights to tripping switchboards and safety switch issues, we diagnose the problem properly rather than guessing. Every job is left clean, tested and explained in plain English.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <div class="service-icon"><i class="fa-solid fa-lightbulb"></i></div>
+        <h3>Lighting Design & Installation</h3>
+        <p>LED downlights, pendants, outdoor and security lighting designed to suit how you actually use the space. We'll talk through layout and switching options so you're not stuck with lights in the wrong spot for the next twenty years.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+        <h3>Commercial & Fit-Out Work</h3>
+        <p>Electrical for gyms, offices, shops and small businesses around Ballarat — including data, three-phase, lighting and power. We work to your timeline so trade is back up and running with minimal downtime.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">05</div>
+        <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>Switchboard Upgrades & Safety Switches</h3>
+        <p>Older Ballarat homes often run boards that aren't up to today's loads or compliance requirements. We upgrade switchboards and install RCDs so your family and property are properly protected.</p>
+      </div>
+      <div class="service-card" style="background:var(--charcoal);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:flex-start">
+        <div class="service-icon" style="background:var(--yellow);color:var(--charcoal)"><i class="fa-solid fa-phone"></i></div>
+        <h3 style="color:#fff">Need Something Else?</h3>
+        <p style="color:#bbbec5">If it involves wires, switchboards or power — chances are we do it. Give Lachy a call and we'll let you know.</p>
+        <a href="tel:0407809647" class="btn btn-primary" style="margin-top:18px">Call Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section why" id="why">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Why Choose LRE</span>
+      <h2>The Difference is in the Detail</h2>
+      <p>It's not what we say — it's what our customers keep saying about us.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item"><div class="why-icon"><i class="fa-solid fa-clock"></i></div><div><h3>On Time, Every Time</h3><p>When we say we'll be there, we'll be there. Our customers consistently mention punctuality as one of the reasons they keep recommending us.</p></div></div>
+      <div class="why-item"><div class="why-icon"><i class="fa-solid fa-broom"></i></div><div><h3>Clean, Tidy Worksites</h3><p>We treat your home or business like our own — drop sheets down, mess cleaned up, and everything left the way we found it. No piles of offcuts in the driveway.</p></div></div>
+      <div class="why-item"><div class="why-icon"><i class="fa-solid fa-phone"></i></div><div><h3>Available 24/7</h3><p>Electrical problems don't wait for business hours, and neither do we. Day or night, weekends included, give Lachy a call and we'll sort it.</p></div></div>
+      <div class="why-item"><div class="why-icon"><i class="fa-solid fa-magnifying-glass"></i></div><div><h3>We Spot What Others Miss</h3><p>A good sparky doesn't just do what's on the list — they tell you what's been left off it. We'll flag oversights in plans and quotes before they cost you down the track.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section process" id="process">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">How It Works</span>
+      <h2>Straightforward From Start to Finish</h2>
+      <p>No drawn-out back and forth. Here's exactly how we run a job.</p>
+    </div>
+    <div class="process-steps">
+      <div class="step"><div class="step-num">1</div><h3>Get in Touch</h3><p>Give Lachy a call or send through the details of your job and we'll get back to you quickly.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>On-Site Assessment & Quote</h3><p>We come out, take a proper look, talk through your options, and provide a clear written quote with no hidden extras.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>The Work Gets Done</h3><p>Our team turns up on time, works tidily, and keeps you in the loop right through to completion.</p></div>
+      <div class="step"><div class="step-num">4</div><h3>Tested, Certified & Tidied Up</h3><p>Everything is tested to Australian Standards, certified, and the worksite left cleaner than we found it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section testimonials" id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Real Reviews</span>
+      <h2>What Ballarat Locals Are Saying</h2>
+    </div>
+    <div class="test-grid">
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>Lachy and the guys were great to work with, very clear communication and great quality workmanship. I really appreciated Lachy helping identify items I had overlooked in the design and can highly reco[mmend].</p>
+        <div class="test-author">— Ben Ryan</div>
+      </div>
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>Cannot recommend Lachy and the team high enough. Between been a top bloke, rocking up on time and leaving a neat and tidy job you will have zero problems when it comes to all things electrical.</p>
+        <div class="test-author">— Eric & Mel, D2E Gym</div>
+      </div>
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>Having recently moved to Ballarat in a new build we were in need of some electrical work. Lauchie responded to the job we posted on Hi Pages — he was very helpful and friendly and worked with us.</p>
+        <div class="test-author">— Barrie Hodges</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section faq" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">FAQ</span>
+      <h2>Common Questions, Answered</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-q">What areas around Ballarat do you cover? <i class="fa-solid fa-plus"></i></button><div class="faq-a"><div>We're based in Miners Rest and look after Ballarat and the surrounding region — including Wendouree, Sebastopol, Buninyong, Creswick and out to the smaller towns nearby. If you're not sure whether you're in our patch, give us a call and we'll let you know.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Do you really take calls 24 hours a day? <i class="fa-solid fa-plus"></i></button><div class="faq-a"><div>Yes — electrical emergencies don't keep office hours, so neither do we. If you've lost power, smell something burning, or have a safety switch that won't reset, call us any time and we'll get to you as quickly as we can.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Are you licensed and insured? <i class="fa-solid fa-plus"></i></button><div class="faq-a"><div>Absolutely. LRE Electrical is fully licensed in Victoria and carries public liability insurance. Every job we complete is wired and certified to the current Australian Standards, and you'll receive a Certificate of Electrical Safety where required.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Can you work with my builder on a new home? <i class="fa-solid fa-plus"></i></button><div class="faq-a"><div>Definitely — a big chunk of our work is new builds across Ballarat. We'll coordinate with your builder, attend site meetings if needed, and walk you through the plans to make sure the lighting, power points and data are where you actually want them.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section hours-section" id="hours">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Hours & Location</span>
+      <h2>Open Around the Clock</h2>
+    </div>
+    <div class="hours-grid">
+      <div class="hours-card">
+        <h3><i class="fa-solid fa-clock"></i> Trading Hours</h3>
+        <ul class="hours-list">
+          <li><span class="day">Monday</span><span class="time">Open 24 hours</span></li>
+          <li><span class="day">Tuesday</span><span class="time">Open 24 hours</span></li>
+          <li><span class="day">Wednesday</span><span class="time">Open 24 hours</span></li>
+          <li><span class="day">Thursday</span><span class="time">Open 24 hours</span></li>
+          <li><span class="day">Friday</span><span class="time">Open 24 hours</span></li>
+          <li><span class="day">Saturday</span><span class="time">Open 24 hours</span></li>
+          <li><span class="day">Sunday</span><span class="time">Open 24 hours</span></li>
+        </ul>
+        <div class="open-badge">Open Now</div>
+      </div>
+      <div class="map-wrap">
+        <iframe src="https://www.google.com/maps?q=14+Tanderra+Court,+Miners+Rest+VIC+3352&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="LRE Electrical Location"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Get in Touch</span>
+      <h2>Let's Sort Your Electrical</h2>
+      <p>Pick up the phone or send us a message — we'll get straight back to you.</p>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="call-block">
+          <div class="small">Talk to Lachy directly</div>
+          <a href="tel:0407809647" class="number">0407 809 647</a>
+          <p>Available 24/7 for emergencies. Free quotes on all new work.</p>
+          <a href="tel:0407809647" class="btn btn-dark"><i class="fa-solid fa-phone"></i> Call Now</a>
+        </div>
+        <div class="contact-info">
+          <div class="contact-info-item"><i class="fa-solid fa-location-dot"></i><div><strong style="color:#fff;display:block">Address</strong>14 Tanderra Court, Miners Rest VIC 3352</div></div>
+          <div class="contact-info-item"><i class="fa-solid fa-envelope"></i><div><strong style="color:#fff;display:block">Servicing</strong>Ballarat, Wendouree, Sebastopol, Buninyong, Creswick & surrounds</div></div>
+          <div class="contact-info-item"><i class="fa-solid fa-clock"></i><div><strong style="color:#fff;display:block">Hours</strong>24 hours a day, 7 days a week</div></div>
+        </div>
+      </div>
+      <form class="contact-form" action="mailto:lachy@lreelectrical.com.au" method="post" enctype="text/plain">
+        <h3>Request a Free Quote</h3>
+        <div class="field"><label>Name</label><input type="text" name="name" required></div>
+        <div class="field"><label>Phone</label><input type="tel" name="phone" required></div>
+        <div class="field"><label>Email</label><input type="email" name="email" required></div>
+        <div class="field"><label>Tell us about the job</label><textarea name="message" required></textarea></div>
+        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Send Enquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo"><span class="logo-bolt" style="display:inline-flex;width:36px;height:36px;background:var(--yellow);align-items:center;justify-content:center;border-radius:6px;color:var(--charcoal)"><i class="fa-solid fa-bolt"></i></span>LRE <span>Electrical</span></div>
+        <p>Trusted Miners Rest sparkies servicing Ballarat and the Central Highlands. Tidy work, fair pricing, 24/7 availability.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li>New Builds & Renovations</li>
+          <li>Residential Repairs</li>
+          <li>LED Lighting</li>
+          <li>Commercial Fit-Outs</li>
+          <li>Switchboard Upgrades</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fa-solid fa-phone"></i> <a href="tel:0407809647">0407 809 647</a></li>
+          <li><i class="fa-solid fa-location-dot"></i> 14 Tanderra Court, Miners Rest VIC 3352</li>
+          <li><i class="fa-solid fa-clock"></i> Open 24/7</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">Copyright © 2026 <span>LRE Electrical</span>. All rights reserved. Fully licensed & insured in Victoria, Australia.</div>
+  </div>
+</footer>
+
+<script>
+const hb = document.getElementById('hamburger');
+const mm = document.getElementById('mobileMenu');
+hb.addEventListener('click',()=>{
+  mm.classList.toggle('open');
+  const i = hb.querySelector('i');
+  i.classList.toggle('fa-bars');
+  i.classList.toggle('fa-xmark');
+});
+mm.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+  mm.classList.remove('open');
+  const i = hb.querySelector('i');
+  i.classList.add('fa-bars');
+  i.classList.remove('fa-xmark');
+}));
+
+document.querySelectorAll('.faq-item').forEach(item=>{
+  item.querySelector('.faq-q').addEventListener('click',()=>{
+    item.classList.toggle('open');
+  });
+});
+</script>
+</body>
+</html>
